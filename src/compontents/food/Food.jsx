@@ -11,7 +11,7 @@ import FoodItem from "./FoodItem";
 function Food({ setOrder, setInfor }) {
   const food = [
     {
-      img: "https://cdn.daynauan.info.vn/wp-content/uploads/2018/06/kim-chi-han-quoc.jpg",
+      img: "https://www.huongnghiepaau.com/wp-content/uploads/2022/06/kim-chi-cai-thao-chua-vi-han-quoc.jpg",
       name: "Kim Chi",
       icon: faStar,
       title:

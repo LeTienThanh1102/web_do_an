@@ -8,7 +8,7 @@ function Product({ setOrder, setInfor }) {
   const product = [
     {
       store: "Trung tâm thương mại Mac Plaza",
-      img: "https://ruavangfood.com/storage/uploads/2021/11/13/618f10ef211a8.png",
+      img: "https://dochienxienque.com/wp-content/uploads/2021/02/Dui-Ga-Chien-Xu.jpg",
       name: "Đùi gà miếng",
       icon: faStar,
       price: 20.99,
