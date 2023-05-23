@@ -35,12 +35,12 @@ function Header() {
     search.current.classList.toggle("active");
   };
   const handleLogin = () => {
-    navigate("/login");
+    navigate("/");
   };
   return (
     <div className="header">
       <div className="header__container">
-        <Link to="/" className="header__img">
+        <Link to="/trangchu" className="header__img">
           <img
             src="https://seeklogo.com/images/F/food-logo-59E5A73AFD-seeklogo.com.png"
             alt=""
