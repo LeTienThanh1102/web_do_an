@@ -42,6 +42,9 @@ function Login() {
       if (response.ok) {
         navigate("/");
       }
+      else {
+        alert("Đăng nhập lại");
+      }
     });
   });
 
