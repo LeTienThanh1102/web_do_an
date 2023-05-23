@@ -34,9 +34,7 @@ function Header() {
   const handleSearch = () => {
     search.current.classList.toggle("active");
   };
-  const handleLogin = () => {
-    navigate("/");
-  };
+  
   return (
     <div className="header">
       <div className="header__container">
@@ -84,7 +82,7 @@ function Header() {
             )}
           </Link>
           <div className="header-login">
-            <Link to="/login">
+            <Link to="/">
               <button className="btn">Login</button>
             </Link>
           </div>
