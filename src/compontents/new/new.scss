@@ -1,0 +1,54 @@
+.new-list{
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2022/09/hinh-nen-powerpoint-chu-de-mon-an-dep-don-gian.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.9;
+}
+.new-list-item{
+    display: flex;
+    padding: 50px;
+}
+.choose{
+    border: 2px solid #f17540;
+    flex: 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 400px;
+}
+.new-head{
+    display: flex;
+    flex-direction: column;
+}
+.download{
+    font-size: 15px;
+}
+.new-img{
+    padding: 4px;
+    max-width: 400px;
+    max-height: 400px;
+}
+.new-content{
+    margin-left: 100px;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.save{
+    background-color: red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+}
