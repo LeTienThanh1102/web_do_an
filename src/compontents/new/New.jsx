@@ -22,7 +22,7 @@ function New() {
       img:imageData,
     };
     dispatch(createPost(newPost));
-    navigate('/')
+    navigate('/trangchu')
   };
   const handleFileSelect = (event) => {
     const file = event.target.files[0];
