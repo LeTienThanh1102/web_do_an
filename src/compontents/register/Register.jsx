@@ -61,7 +61,7 @@ function Register() {
       body: JSON.stringify(data),
     }).then((response) => {
       if (response.ok) {
-        navigate("/trangchu");
+        navigate("/login");
       }
     });
   });

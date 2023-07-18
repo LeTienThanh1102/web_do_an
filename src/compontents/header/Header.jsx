@@ -82,7 +82,7 @@ function Header() {
             )}
           </Link>
           <div className="header-login">
-            <Link to="/">
+            <Link to="/login">
               <button className="btn">Login</button>
             </Link>
           </div>

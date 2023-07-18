@@ -40,7 +40,7 @@ function Login() {
       body: JSON.stringify(data),
     }).then((response) => {
       if (response.ok) {
-        navigate("/trangchu");
+        navigate("/");
       }
       else {
         alert("Đăng nhập lại");
